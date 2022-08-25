@@ -1,37 +1,63 @@
-alert("Halo Salam kenal!");
-alert("Selamat datang");
-
 let playerName = "Ella Budi Wijayanti";
 alert(playerName);
 playerName = "Ella";
 alert(playerName);
 
-let message = "Hactive8";
+const pi = 3.14;
+// result = 5.12; 
+
+//tipe data
+alert("Tipe Data JavaScript");
+let weight = 75;
+alert(weight + 15);
+
+let originalNum = 23;
+let newNum = originalNum + 7;
+alert(newNum);
+
+alert("Helo class modern javascript!");
+
+let message = "welcome!";
 alert(message);
-message = "react and react native";
+message = "bye, bye";
 alert(message);
-message = "semangat belajar!!!";
+message = "She's a great person";
 alert(message);
 
+let htmlSnippet = '<h1 class="header">This is a header</h1>';
+alert("Menggabungkan String");
+let visitor = prompt("Siapakah namamu?");
+let messageVisitor = "Halo " + visitor;
+messageVisitor =
+  messageVisitor + ". Selamat datang di kelas Modern Javascript!";
+messageVisitor += " Kita senang sekali kamu mau datang berkunjung. ";
+messageVisitor +=
+  visitor + ". Semoga kamu berkenan datang kembali untuk belajar bersama.";
+alert(messageVisitor);
 
-const pi = 3.14
-// pi = 12
-console.log(pi);
+alert("Tipe Data Boolean");
+let isRaining = true;
+let isFinished = false;
+alert(isRaining);
 
-let score = 50
-console.log("Hasil variabel Score "+score);
+alert("Array");
 
-const objectAngkaKeb = {id:1, name:'Ella', jenkel:'P'}
-objectAngkaKeb.id = 2
-objectAngkaKeb.name = "ella"
-objectAngkaKeb.jenkel = "Perempuan"
-objectAngkaKeb.alamat = "Demak"
-console.log(objectAngkaKeb);
+alert("Deklarasi Array");
+var kode = ["React", "Php", "Ruby"];
+alert("Operasi Array");
 
-const arrayNumber = [1,2,3,4,5]
-arrayNumber.push(6)
-arrayNumber.push(7)
-console.log(arrayNumber);
+alert("Merge 2 Array");
+var fruits = ["Anggur", "Melati", "Apel", "Jeruk"];
+var buah_buahan = ["Strawberry", "Pir", "Durian"];
+alert(fruits);
 
-var _nama = "test"
- 
+alert("Menghapus item pada Array");
+var indexHapus = 1;
+fruits.splice(indexHapus, 1);
+alert(fruits);
+
+alert("Mengkosongkan Array");
+var fruits = ["Anggur", "Melati", "Apel", "Jeruk"];
+fruits.splice(0, fruits.length);
+console.log(fruits);
+
