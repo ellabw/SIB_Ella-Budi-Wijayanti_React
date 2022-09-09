@@ -1,4 +1,4 @@
-function Aboutmeetup(){
+function About(){
     return(
         <div className="next">
             <p>
@@ -12,4 +12,4 @@ function Aboutmeetup(){
     )
 }
 
-export default Aboutmeetup
+export default About

@@ -10,11 +10,17 @@ function Meetup(props){
       </div>
       <div className="meetup-next">
         <h3>Hacktiv8 Meetup</h3>
-        <p className ="desc">Location : Jakarta</p>
-        <p className ="desc">Members : 1,078</p>
-        <p className ="desc">Organizers : Andy Wiranata</p>
+        <p className ="desc">
+          Location : Jakarta
+        </p>
+        <p className ="desc">
+          Members : 1,078
+        </p>
+        <p className ="desc">
+          Organizers : Andy Wiranata
+        </p>
 
-        <Button variant="info" size="lg" onClick={() => setjoin(alert("sudah join"))}>
+        <Button variant="info" size="lg" onClick={() => setjoin(alert("terimakasih"))}>
           Join Us
         </Button>
       </div>

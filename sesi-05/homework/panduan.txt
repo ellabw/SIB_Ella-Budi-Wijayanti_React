@@ -6,3 +6,8 @@ Penggunaan State :
     - Digunakan pada Button Join US pada mainmeetup.js dan PastMeetup
     - Btn Join US jika di klik akan menjadi Joined
     - Btn View jika di klik akan menjadi Viewed
+    - Digunakan untuk mencari routing di bagian navbar
+
+Routing Navbar: 
+    - Navbar sudah bisa routing ke page lain
+    - Navbar disabled setelah pindah ke page nya 
