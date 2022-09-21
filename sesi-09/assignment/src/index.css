@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(219, 48%, 8%);
+  }
+}
+
+/* .coba{
+color: rgb(163, 149, 233);
+color: rgb(11, 17, 30)
+} */
