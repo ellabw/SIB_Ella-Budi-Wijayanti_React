@@ -1,0 +1,14 @@
+.demo {
+    text-align: center;
+    margin: 2rem;
+    margin-top: 5rem;
+}
+
+#counter {
+    margin: 2rem;
+}
+
+button, input {
+    font-size: 24px;
+    padding: 1rem;
+}
