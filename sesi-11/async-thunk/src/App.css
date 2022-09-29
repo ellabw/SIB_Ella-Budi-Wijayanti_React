@@ -1,0 +1,25 @@
+.App {
+    text-align: center;
+    margin: 2rem;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 2rem auto;
+}
+
+th {
+    padding: 8px;
+    background-color: #3C5186;
+    color: #fff5de;
+    
+}
+
+td {
+    padding: 5px;
+
+}
